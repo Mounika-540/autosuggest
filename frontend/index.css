@@ -1,3 +1,18 @@
 h1{
     color : red;
 }
+  #home-intro{
+    text-align: center;
+
+    /* border: 5px;
+    //border-color: black;
+    border-style: solid;*/
+    border: 5px solid navy;
+  }
+     #home-intro:hover{
+        background-color: palevioletred;
+     }
+    #p2{
+        color: blue;
+    }
+  
