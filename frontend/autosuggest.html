@@ -92,7 +92,7 @@
             var htmlResults="";
             for(var i=0;i<resultsArray.length;i++)
          {
-            htmlResults="<div id='suggestion-item'>" + resultsArray[i].text + "</div>"
+            htmlResults +="<div id='suggestion-item'>" + resultsArray[i].text + "</div>"
          }
             suggestionBox.innerHTML = htmlResults;
       })
